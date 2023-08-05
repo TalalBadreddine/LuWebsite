@@ -6,6 +6,7 @@ Commands
 
 1. Add new files "git add ."
 2. Commit files "git commit -m 'YOUR MESSAGE'"
+3. Push changes "git push origin main"
 
 ## Git Branches
 
@@ -24,7 +25,7 @@ Commands
 * git fetch origin (Update remote Repository)
 * git pull origin (Gets the new updates from main)
 
-# Git merging and pushing
+## Git merging and pushing
 
 After working on a branch if you want to merge the branch with the main, you have 2 options, After publishing your branch you can :
 
