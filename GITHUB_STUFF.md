@@ -4,7 +4,7 @@ Commands
 
 ## Git commiting
 
-1. Add new files "git add ."
+1. Add new files "git add ." (If you added any files)
 2. Commit files "git commit -m 'YOUR MESSAGE'"
 3. Push changes "git push origin main"
 
@@ -27,10 +27,10 @@ Commands
 
 ## Git merging and pushing
 
-After working on a branch if you want to merge the branch with the main, you have 2 options, After publishing your branch you can :
+After working on a branch if you want to merge the branch with the main, you have 2 options, After publishing and commiting your branch you can:
 
 * Option One : Create a pull request it will show you the differences betweem files and you can accept or refuse the pull request (you can do this on the github website)
 
 * Option Two : Directly mergin the two branches. 
 1. Checkout to main "git checkout main"
-2. push to origin "git push origin"
+2. push to origin "git push origin BRANCH"
