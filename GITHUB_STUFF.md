@@ -1,7 +1,5 @@
 # Github Commands
 
-Commands
-
 ## Git commiting
 
 1. Add new files "git add ."
