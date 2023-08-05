@@ -35,3 +35,5 @@ After working on a branch if you want to merge the branch with the main, you hav
 1. Check if everything is good "git pull origin your-branch-name"
 2. Checkout to main "git checkout main"
 3. push to origin "git merge your-branch-name" 
+
+new line
