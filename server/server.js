@@ -1,6 +1,8 @@
 const express = require('express')
 const cors = require('cors')
 
+const secrets = require('./secrets')
+
 const app = express()
 
 app.use(cors())
@@ -13,7 +15,6 @@ app.get('/about', (req, res) => {
     res.send("this thing accually worked ?")
 })
 
-const port = 5000
-app.listen(port, () => {
+app.listen(secrets.PORT, () => {
     console.log(`server is running on http://localhost:${port}`)
 })
