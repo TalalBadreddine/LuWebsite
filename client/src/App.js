@@ -1,9 +1,18 @@
-import './App.css';
+
+import React, {useState, useEffect} from 'react'
+import axios from 'axios'
 
 function App() {
+	
+	const [data, setData] = useState('')
+
+	axios.get('http://localhost:5000/about').then(response => setData(response.data))
+
 	return (
-		<div className="App">
-			<h1 className='text-4xl hover:text-red-600'>Hello</h1>
+		<div>
+			<h1 className="text-3xl font-bold underline">
+				Hello world!
+			</h1>
 		</div>
 	);
 }
