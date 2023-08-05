@@ -32,5 +32,6 @@ After working on a branch if you want to merge the branch with the main, you hav
 * Option One : Create a pull request it will show you the differences betweem files and you can accept or refuse the pull request (you can do this on the github website)
 
 * Option Two : Directly mergin the two branches. 
-1. Checkout to main "git checkout main"
-2. push to origin "git push origin BRANCH"
+1. Check if everything is good "git pull origin your-branch-name"
+2. Checkout to main "git checkout main"
+3. push to origin "git merge your-branch-name" 
