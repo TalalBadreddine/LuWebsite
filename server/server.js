@@ -1,10 +1,18 @@
 const express = require('express')
 const cors = require('cors')
 
+const mongoose = require('./mongoDbConfig')
 const secrets = require('./secrets')
+const User = require('./Models/userSchema')
+
+const newUser = new User({
+    name: "Ali",
+    age: 20,
+})
+
+newUser.save()
 
 const app = express()
-
 app.use(cors())
 
 app.get('/', (req, res) => {
@@ -16,5 +24,5 @@ app.get('/about', (req, res) => {
 })
 
 app.listen(secrets.PORT, () => {
-    console.log(`server is running on http://localhost:${port}`)
+    console.log(`server is running on http://localhost:${secrets.PORT}`)
 })
